@@ -19,7 +19,9 @@ nav div ul{
 }
 nav div ul li a{
     text-decoration: none;
-    color: #333;
+    color: #659af1;
+    font-weight:lighter;
+    font-size: 19px;
 }
 nav div ul li a:hover{
     color: #afdf2a;
