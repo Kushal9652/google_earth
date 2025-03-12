@@ -89,7 +89,7 @@ nav div button:hover{
     color: #659af1;
     font-weight: 500;
     height:40px;
-    margin-top: -110px;
+    /* margin-top: -110px; */
     margin-left: 45%;
 }
  .image img:hover {
@@ -97,15 +97,14 @@ nav div button:hover{
     transition: transform 5s ease-in-out;
 }
 .services{
-    display:grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 250px;
-    margin-top: -10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 15px;
     margin-bottom: 30px;
-    border: 1px solid #ffffff;
     padding: 20px;
+    justify-content: space-evenly;
     border-radius: 10px;
-    flex-wrap: wrap;
 }
 .footer{
     display: flex;
@@ -114,4 +113,9 @@ nav div button:hover{
     background-color: #f6f6f6;
     height: 10vh;
     font-family: 'Poppins', sans-serif; 
+}
+.ge{
+    color:  #659af1;
+    padding-top: 10px;
+    font-size: 19px;
 }
